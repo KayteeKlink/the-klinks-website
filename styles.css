@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f9f9f9;
+    background-color: #000000;
 }
 
 header {
@@ -55,6 +55,7 @@ header {
     font-weight: bold;
     font-size: 309.34px;
     display: block;
+    color: #FFFFFF;
 }
 
 .title .klinks {
@@ -62,6 +63,7 @@ header {
     font-weight: bold;
     font-size: 284.81px;
     display: block;
+    color: #FFFFFF;
 }
 
 .description {
@@ -72,6 +74,7 @@ header {
     width: 80%;
     text-align: center;
     font-size: 28px;
+    color: #FFFFFF;
 }
 
 .info {
@@ -93,11 +96,13 @@ header {
     font-family: 'Playfair Display', serif;
     font-weight: normal;
     font-size: 81.31px;
+    color: #FFFFFF;
 }
 
 .info p {
     font-family: 'Inter', sans-serif;
     font-size: 28px;
+    color: #FFFFFF;
 }
 
 main {
