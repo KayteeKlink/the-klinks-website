@@ -59,15 +59,20 @@ header {
     background: none; /* Remove background */
 }
 
-.info h2 {
+h2 {
     font-size: 81.31px;
     font-weight: normal; /* Regular font weight */
     background: none; /* Remove background */
 }
 
-.info p {
+p {
+    font-family: 'Inter', sans-serif;
     font-size: 32px; /* Adjust font size as needed */
     background: none; /* Remove background */
+}
+
+footer p {
+     font-size: 8px; /* Adjust font size as needed for mobile */
 }
 
 .info a {
@@ -117,22 +122,26 @@ footer {
 
 @media (max-width: 768px) {
     .hero-img.left {
-        display: none;
-    }
-
-    .hero-img.right {
         width: 100%;
     }
 
-    .title {
-        font-size: 100px; /* Adjust font size as needed for mobile */
+    .hero-img.right {
+        display: none;
     }
 
-    .info h2 {
+    .title {
+        font-size: 75px; /* Adjust font size as needed for mobile */
+    }
+
+    h2 {
         font-size: 40px; /* Adjust font size as needed for mobile */
     }
 
-    .info p {
-        font-size: 20px; /* Adjust font size as needed for mobile */
+    p {
+        font-size: 12px; /* Adjust font size as needed for mobile */
+    }
+
+    footer p {
+            font-size: 8px; /* Adjust font size as needed for mobile */
     }
 }
