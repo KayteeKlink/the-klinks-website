@@ -143,5 +143,6 @@ footer {
 
     footer p {
             font-size: 8px; /* Adjust font size as needed for mobile */
+            padding: 5px 0; /* Add padding to create space between lines */
     }
 }
