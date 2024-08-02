@@ -59,8 +59,29 @@ header {
     background: none; /* Remove background */
 }
 
+.text-box {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    padding: 5px;
+    background: none;
+    color: #9c524c;
+    font-size: 50px; /* Adjust font size as needed */
+    z-index: 2; /* Ensure it appears above other elements */
+    outline: 1px solid #9c524c;
+    outline-offset: 5px
+}
+
+.text-box p {
+    padding: 5px;
+    color: #9c524c;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 20px; /* Adjust font size as needed */
+}
+
 h2 {
-    font-size: 81.31px;
+    font-size: 50px;
     font-weight: normal; /* Regular font weight */
     background: none; /* Remove background */
 }
@@ -144,5 +165,23 @@ footer {
     footer p {
             font-size: 8px; /* Adjust font size as needed for mobile */
             padding: 5px 0; /* Add padding to create space between lines */
+    }
+
+    .text-box {
+        position: absolute;
+        top: 3%;
+        left: 10%;
+        padding: 10px;
+        background-color: none;
+        color: #9c524c;
+        font-size: 20px; /* Adjust font size as needed */
+        z-index: 2; /* Ensure it appears above other elements */
+    }
+
+    .text-box p {
+        font-family: 'Inter', sans-serif;
+        color: #9c524c;
+        position:right;
+        font-size: 10px; /* Adjust font size as needed */
     }
 }
