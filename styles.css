@@ -35,11 +35,21 @@ header {
     right: 0;
 }
 
-.title {
-    font-size: 284.81px; /* Adjust font size as needed */
+.the-title {
+    font-size: 250px; /* Adjust font size as needed */
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background: none; /* Remove background */
+}
+
+.klinks-title {
+font-size: 250px; /* Adjust font size as needed */
+    position: absolute;
+    top: 55%;
+    left: 55%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
     background: none; /* Remove background */
@@ -68,8 +78,6 @@ header {
     color: #9c524c;
     font-size: 50px; /* Adjust font size as needed */
     z-index: 2; /* Ensure it appears above other elements */
-    outline: 1px solid #9c524c;
-    outline-offset: 5px
 }
 
 .text-box p {
@@ -150,8 +158,28 @@ footer {
         display: none;
     }
 
+.the-title {
+    font-size: 100px; /* Adjust font size as needed */
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background: none; /* Remove background */
+}
+
+.klinks-title {
+    font-size: 100px; /* Adjust font size as needed */
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background: none; /* Remove background */
+}
     .title {
-        font-size: 75px; /* Adjust font size as needed for mobile */
+        font-size: 100px; /* Adjust font size as needed for mobile */
+        white-space: wrap;
     }
 
     h2 {
