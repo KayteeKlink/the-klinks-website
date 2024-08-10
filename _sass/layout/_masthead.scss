@@ -1,12 +1,16 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("#{$header-image}");
+  color: $off-white;
+//   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  background-color: black;
+  .intro-lead-in {
+      color: $bright-red;
+  }
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;

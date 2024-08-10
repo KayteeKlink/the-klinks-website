@@ -11,18 +11,20 @@ contact-image: "../img/contact.png"
 
 # Add custom fonts
 fonts_urls:
-    - "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-    - "https://fonts.googleapis.com/css?family=Kaushan+Script"
-    - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
-    - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+     -  "https://fonts.googleapis.com/css2?family=Anton"
+     -  "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900"
+     -  "https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+#    - "https://fonts.googleapis.com/css2?family=Anton"
+#    - "https://fonts.googleapis.com/css?family=Inter"
+#    - "https://fonts.googleapis.com/css?family=Shadows+Into+Light"
 
 # Set custom fonts
 fonts:
-  - name: "Montserrat"
+  - name: "Anton"
     for: "heading"
-  - name: "Kaushan Script"
+  - name: "Shadows Into Light"
     for: "script"
-  - name: "Droid Serif"
+  - name: "Shadows Into Light"
     for: "serif"
-  - name: "Roboto Slab"
+  - name: "Inter"
     for: "body"
