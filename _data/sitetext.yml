@@ -12,16 +12,28 @@
 en: &DEFAULT_EN
   header:
     title: Hello, I'm
-    text: Kaytee Klinkenberg
-    button: Tell Me More
-    buttonlink: "#services"
+    text: Kaytee
+    button: sup
+    buttonlink: "#about"
+
+  header-last:
+    title: Hello, I'm
+    text: Klink
+#    button: sup
+#    buttonlink: "#about"
+
+  about:
+    title: "INTRODUCTION"
+    text: "IYKNK"
+    body: "I’m a passionate Software Engineer who thrives on solving problems, turning ideas into reality, and continuous personal development. Early on, I learned that with grit and perseverance, anything is possible. This mindset helped me excel in my studies, earning a 4.0 in Computer Information Systems and Quantitative Statistics at TxState University, and even master billiards, eventually competing and winning at the collegiate level. These experiences taught me the power of dedication and the importance of setting intrinsic goals, which guided me toward pursuing my love for music. I taught myself guitar, started a band, and dove into songwriting, using creativity to practice authenticity while striving to impact others as music has impacted me. I’m someone who finds balance in life by embracing both the creative and strategic aspects of who I am. Software engineering is the yin to my musical yang. With a strong background in Native Android Development and Engineering Operations, I enjoy building innovative software solutions and automating the mundane. Recent projects include developing websites for local bands in Austin, as well as building an app in Flutter. I’m particularly excited about streamlining processes and creating automated solutions, especially with the advancements in AI, which I leverage to craft efficient systems. I’m always eager to learn something new in this ever-evolving field, driven by a deep curiosity and a commitment to continuous improvement. I value being organized and thorough, striving to thoughtfully plan and execute each project. Whether working solo or as part of a team, I’m dedicated to making a real impact, and I believe that much of my success comes from the power of collaboration."
+    section: about
 
   services:
     title: "Services"
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "Projects"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "Responsive Design"
@@ -67,12 +79,6 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
 
   clients:
     section: clients

@@ -1,5 +1,9 @@
 // Styling for the timeline section
+#timeline.bg-light {
+  background-color: $off-white !important;
+}
 .timeline {
+  background-color: $off-white;
   position: relative;
   padding: 0;
   list-style: none;
@@ -52,7 +56,7 @@
       height: 80px;
       margin-left: 0;
       text-align: center;
-      color: $white;
+      color: $off-white;
       border: 7px solid $gray-200;
       border-radius: 100%;
       background-color: $primary;

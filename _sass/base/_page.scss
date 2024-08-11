@@ -1,9 +1,17 @@
 // Global styling for this template
 body {
+  background-color: $off-white;
   overflow-x: hidden;
   @include body-font;
 }
 
+.square-box {
+  font-size: 14px;
+  box-sizing: border-box;
+  background-position: right;
+//   width: 70%;
+//   float: left;
+}
 p {
   line-height: 1.75;
 }
@@ -20,8 +28,15 @@ a {
 }
 
 h1,
-h2,
-h3,
+h2 {
+   font-size: 90px;
+   @include heading-font;
+}
+h3 {
+    font-size: 44px;
+    color: $primary;
+    @include script-font;
+}
 h4,
 h5,
 h6 {
@@ -30,17 +45,19 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  background-color: $off-white;
+  padding: 50px 0;
   h2.section-heading {
-    font-size: 40px;
+    color: $primary;
+    font-size: 200px;
     margin-top: 0;
     margin-bottom: 15px;
   }
   h3.section-subheading {
-    font-size: 16px;
+    font-size: 44px;
     font-weight: 400;
-    font-style: italic;
-    margin-bottom: 75px;
+    color: black !important;
+    margin-bottom: 20px;
     text-transform: none;
     @include serif-font;
   }

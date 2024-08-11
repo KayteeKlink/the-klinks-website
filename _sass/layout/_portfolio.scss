@@ -1,4 +1,7 @@
 // Styling for the portfolio section
+#portfolio.bg-light {
+  background-color: $off-white !important;
+}
 #portfolio {
   .portfolio-item {
     right: 0;
@@ -29,7 +32,7 @@
           height: 20px;
           margin-top: -12px;
           text-align: center;
-          color: white;
+          color: $off-white;
           i {
             margin-top: -12px;
           }
@@ -45,7 +48,7 @@
       margin: 0 auto;
       padding: 25px;
       text-align: center;
-      background-color: $white;
+      background-color: $off-white;
       h4 {
         margin: 0;
         text-transform: none;

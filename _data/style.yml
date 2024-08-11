@@ -14,9 +14,6 @@ fonts_urls:
      -  "https://fonts.googleapis.com/css2?family=Anton"
      -  "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900"
      -  "https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
-#    - "https://fonts.googleapis.com/css2?family=Anton"
-#    - "https://fonts.googleapis.com/css?family=Inter"
-#    - "https://fonts.googleapis.com/css?family=Shadows+Into+Light"
 
 # Set custom fonts
 fonts:
