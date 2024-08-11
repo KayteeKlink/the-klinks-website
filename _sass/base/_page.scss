@@ -5,12 +5,39 @@ body {
   @include body-font;
 }
 
+// About page edits
+.about-row {
+  margin: -70px;
+  background-image: url('../img/klinks-10.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  justify-content: flex-start;
+  padding: 0px;
+}
+.section-subheading-rotated {
+  color: black;
+  transform: rotate(-10deg);
+  transform-origin: top left; /* Rotates around the top left corner */
+  font-size: 94px;
+  font-style: italic;
+  margin: 0px;
+}
 .square-box {
   font-size: 14px;
   box-sizing: border-box;
-  background-position: right;
-//   width: 70%;
-//   float: left;
+  width: 50%; /* Adjust as necessary */
+  margin: 0; /* Removes any extra margin */
+  padding-left: 0px; /* Optional: Adds padding on the left side */
+  text-align: left; /* Aligns text to the left */
+  padding-bottom: 16px;
+}
+
+.square-container {
+  display: flex;
+  justify-content: flex-start; /* Aligns child elements to the left */
+  align-items: flex-start; /* Aligns items to the top */
+  width: 100%;
 }
 p {
   line-height: 1.75;
