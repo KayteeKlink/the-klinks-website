@@ -28,10 +28,10 @@ en: &DEFAULT_EN
     body: "I’m a passionate Software Engineer who thrives on solving problems, turning ideas into reality, and continuous personal development. Early on, I learned that with grit and perseverance, anything is possible. This mindset helped me excel in my studies, earning a 4.0 in Computer Information Systems and Quantitative Statistics at TxState University, and even master billiards, eventually competing and winning at the collegiate level. These experiences taught me the power of dedication and the importance of setting intrinsic goals, which guided me toward pursuing my love for music. I taught myself guitar, started a band, and dove into songwriting, using creativity to practice authenticity while striving to impact others as music has impacted me. I’m someone who finds balance in life by embracing both the creative and strategic aspects of who I am. Software engineering is the yin to my musical yang. With a strong background in Native Android Development and Engineering Operations, I enjoy building innovative software solutions and automating the mundane. Recent projects include developing websites for local bands in Austin, as well as building an app in Flutter. I’m particularly excited about streamlining processes and creating automated solutions, especially with the advancements in AI, which I leverage to craft efficient systems. I’m always eager to learn something new in this ever-evolving field, driven by a deep curiosity and a commitment to continuous improvement. I value being organized and thorough, striving to thoughtfully plan and execute each project. Whether working solo or as part of a team, I’m dedicated to making a real impact, and I believe that much of my success comes from the power of collaboration."
     section: about
 
-  services:
+  links:
     title: "Links"
     text: "Left brain, right brain"
-    section: services
+    section: links
     list:
       - title: "Projects"
         desc: "Software Engineering"
@@ -181,7 +181,7 @@ es: &DEFAULT_ES
     button: Ver más
     buttonlink: "#servicios"
 
-  services:
+  links:
     title: "Servicios"
     text: "Lorem ipsum"
     section: servicios
@@ -336,7 +336,7 @@ de: &DEFAULT_DE
     button: Mehr erfahren
     buttonlink: "#Angebote"
 
-  services:
+  links:
     title: "Leistungen"
     text: "Was wir anbieten."
     section: Leistungen

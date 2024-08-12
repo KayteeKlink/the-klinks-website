@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     - title: "About"
       section: about
     - title: "Links"
-      section: services
+      section: links
     - title: "Portfolio"
       section: portfolio
 #    - title: "Timeline"
