@@ -7,7 +7,6 @@ body {
 
 // About page edits
 .about-row {
-  margin: -70px;
   background-image: url('../img/klinks-10.jpg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -24,13 +23,11 @@ body {
   margin: 0px;
 }
 .square-box {
-  font-size: 14px;
+  font-size: 12px;
   box-sizing: border-box;
   width: 50%; /* Adjust as necessary */
   margin: 0; /* Removes any extra margin */
-  padding-left: 0px; /* Optional: Adds padding on the left side */
   text-align: left; /* Aligns text to the left */
-  padding-bottom: 16px;
 }
 
 .square-container {
@@ -72,8 +69,11 @@ h6 {
 }
 
 .page-section {
+  min-height: 100vh; // Ensure it takes up the full viewport height
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: $off-white;
-  padding: 50px 0;
   h2.section-heading {
     color: $primary;
     font-size: 200px;
@@ -89,11 +89,17 @@ h6 {
     @include serif-font;
   }
 }
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
+@media (max-width: 768px) {
+  .page-section {
+    padding-bottom: 50px; // Reduce the bottom padding on smaller screens if needed
+    min-height: 80vh; // Slightly reduce the height on mobile to avoid issues with shorter viewports
   }
 }
+// @media (min-width: 768px) {
+//   section {
+//     padding: 150px 0;
+//   }
+// }
 
 // Highlight color customization
 ::-moz-selection {

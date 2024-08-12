@@ -33,7 +33,7 @@ en: &DEFAULT_EN
     text: "Left brain, right brain"
     section: links
     list:
-      - title: "Projects"
+      - title: "Code"
         desc: "Software Engineering"
         icon: fab fa-github #find more at https://fontawesome.com/icons
       - title: "Music"
