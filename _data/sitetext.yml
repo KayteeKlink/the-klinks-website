@@ -30,7 +30,7 @@ en: &DEFAULT_EN
 
   links:
     title: "Links"
-    text: "Left brain, right brain"
+    text: "hmu"
     section: links
     list:
       - title: "Code"
@@ -39,6 +39,12 @@ en: &DEFAULT_EN
       - title: "Music"
         desc: "The Klinks"
         icon: fas fa-music
+      - title: "Insta"
+        desc: "The Klinks"
+        icon: fab fa-instagram
+      - title: "LinkedIn"
+        desc: "The Klinks"
+        icon: fab fa-linkedin
 #      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
 #        desc: "Your description here, full **Markdown** support"
 #        icon: fab fa-markdown
