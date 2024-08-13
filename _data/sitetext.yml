@@ -36,22 +36,25 @@ en: &DEFAULT_EN
       - title: "Code"
         desc: "Software Engineering"
         icon: fab fa-github #find more at https://fontawesome.com/icons
+        url: https://github.com/kayteeklink
       - title: "Music"
         desc: "The Klinks"
         icon: fas fa-music
-      - title: "Insta"
-        desc: "The Klinks"
-        icon: fab fa-instagram
-      - title: "LinkedIn"
-        desc: "The Klinks"
-        icon: fab fa-linkedin
+        url: https://theklinksmusic.com
+
+    sociallinks:
+      social:
+        - url: https://www.instagram.com/klinkstink
+          icon: fab fa-instagram
+        - url: https://www.linkedin.com/in/kayteeklinkenberg
+          icon: fab fa-linkedin-in
 #      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
 #        desc: "Your description here, full **Markdown** support"
 #        icon: fab fa-markdown
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Recent Engineering Projects"
     section: portfolio
     closebutton: "Close Project"
 
