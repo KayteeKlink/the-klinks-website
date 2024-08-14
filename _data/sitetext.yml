@@ -53,7 +53,7 @@ en: &DEFAULT_EN
 #        icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
+    title: "<h2 class=\"section-heading text-uppercase\">Portfolio</h2>"
     text: "Recent Engineering Projects"
     section: portfolio
     closebutton: "Close Project"
