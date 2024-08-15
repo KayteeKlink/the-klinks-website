@@ -13,6 +13,32 @@
       </div>
     </div>
 
+    <div id="upcoming-gigs"></div>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        fetch('https://rest.bandsintown.com/artists/15547753-goldrush/events?app_id=goldrushsite')
+          .then(response => response.json())
+          .then(data => {
+            const gigsContainer = document.getElementById('upcoming-gigs');
+            if(data.length === 0) {
+              gigsContainer.innerHTML = '<p>No upcoming gigs.</p>';
+            } else {
+              data.forEach(event => {
+                const eventElement = document.createElement('div');
+                eventElement.innerHTML = `
+                  <h3>${event.venue.name} - ${event.venue.city}, ${event.venue.country}</h3>
+                  <p>${new Date(event.datetime).toDateString()}</p>
+                  <a href="${event.url}" target="_blank">Buy Tickets</a>
+                `;
+                gigsContainer.appendChild(eventElement);
+              });
+            }
+          })
+          .catch(error => console.error('Error fetching gigs:', error));
+      });
+    </script>
+
     <div class="row d-flex justify-content-center" id="social-links">
       <ul class="list-inline social-buttons text-center">
         {% for network in site.data.sitetext[site.locale].links.sociallinks.social %}

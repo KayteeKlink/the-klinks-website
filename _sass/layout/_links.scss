@@ -5,10 +5,30 @@
 }
 #links {
   background-color: black;
-  // h4 {
-  //   color: $bright-red !important;
-  // }
 }
 #social-links {
   margin-bottom: 50px;
+}
+
+#upcoming-gigs div {
+  margin-bottom: 20px;
+}
+
+#upcoming-gigs h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+#upcoming-gigs p {
+  font-size: 1em;
+  color: #666;
+}
+
+#upcoming-gigs a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+#upcoming-gigs a:hover {
+  text-decoration: underline;
 }
