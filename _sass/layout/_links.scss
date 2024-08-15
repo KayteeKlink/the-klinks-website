@@ -1,9 +1,13 @@
 // Styling for the links section
 .link-heading {
   text-transform: none;
+  color: $bright-red !important;
 }
 #links {
   background-color: black;
+  // h4 {
+  //   color: $bright-red !important;
+  // }
 }
 #social-links {
   margin-bottom: 50px;
