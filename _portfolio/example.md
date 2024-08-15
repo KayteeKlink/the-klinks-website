@@ -2,11 +2,11 @@
 caption: #what displays in the portfolio grid:
   title: Products & Apps 
   subtitle: Mobile App Development
-  thumbnail: ../assets/img/portfolio/Android_StockPhoto.jpg
+  thumbnail: ../assets/img/portfolio/blackabstract1.jpg
   
 #what displays when the item is clicked:
 title: Products & Apps
-subtitle: some stuff I've built
+subtitle: Mobile App Development
 image: ../assets/img/portfolio/cute_divider.png #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 

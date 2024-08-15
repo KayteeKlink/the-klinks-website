@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Websites
   subtitle: Websites I've Built
-  thumbnail: ../assets/img/portfolio/WebsiteStockPhoto.jpg
+  thumbnail: ../assets/img/portfolio/blackabstract2.jpg
   
 #what displays when the item is clicked:
 title: Websites

@@ -4,8 +4,12 @@ section#contact {
   background-image: url("#{$contact-image}");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   .section-heading {
     color: $off-white;
+  }
+  h3 {
+    color: $bright-red !important;
   }
   .form-group {
     margin-bottom: 25px;
@@ -27,21 +31,21 @@ section#contact {
   ::-webkit-input-placeholder {
     font-weight: 700;
     color: $gray-400;
-    @include heading-font;
+    @include body-font;
   }
   :-moz-placeholder {
     font-weight: 700;
     color: $gray-400;
-    @include heading-font;
+    @include body-font;
   }
   ::-moz-placeholder {
     font-weight: 700;
     color: $gray-400;
-    @include heading-font;
+    @include body-font;
   }
   :-ms-input-placeholder {
     font-weight: 700;
     color: $gray-400;
-    @include heading-font;
+    @include body-font;
   }
 }

@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Test Solutions
   subtitle: Damn I Just Love Test
-  thumbnail: ../assets/img/portfolio/TestSolutions.jpg
+  thumbnail: ../assets/img/portfolio/blackabstract.jpg
   
 #what displays when the item is clicked:
 title: Test Solutions
