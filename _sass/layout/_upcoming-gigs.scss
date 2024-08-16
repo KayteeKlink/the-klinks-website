@@ -1,0 +1,34 @@
+// Styling for the upcoming-gigs section
+.upcoming-gig-heading {
+  text-transform: none;
+  color: $bright-red !important;
+}
+#upcoming-gigs {
+  background-color: black;
+}
+#social-upcoming-gigs {
+  margin-bottom: 50px;
+}
+
+#upcoming-gigs div {
+  margin-bottom: 20px;
+}
+
+#upcoming-gigs h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+#upcoming-gigs p {
+  font-size: 1em;
+  color: #666;
+}
+
+#upcoming-gigs a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+#upcoming-gigs a:hover {
+  text-decoration: underline;
+}

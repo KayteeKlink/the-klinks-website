@@ -11,16 +11,16 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "About"
-      section: about
-    - title: "Links"
-      section: links
-    - title: "Portfolio"
+    - title: "Listen"
       section: portfolio
+    - title: "upcoming gigs"
+      section: upcoming-gigs
 #    - title: "Timeline"
 #      section: timeline
     # - title: "Team"
     #   section: team
+    - title: "About"
+      section: about
     - title: "Contact"
       section: contact
 en-US:

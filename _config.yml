@@ -13,11 +13,11 @@
 
 remote_theme: "raviriley/agency-jekyll-theme"
 
-url    : "https://kayteeklink.me" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Kaytee Klinkenberg
-email      : kayteeklink+website@gmail.com #this is also the email contact forms will go to
+title      : Goldrush
+email      : goldrushatx@gmail.com #this is also the email contact forms will go to
 description: "Site description"
 author     : Kaytee Klinkenberg
 # logo:     #optional, defaults to site title

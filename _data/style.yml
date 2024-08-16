@@ -5,7 +5,7 @@
 
 #Image Customization
 header-image: "../img/header.png"
-contact-image: "../img/HairWhipMe.jpg"
+contact-image: "../img/GoldrushFaceDown.jpeg"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
 
@@ -14,14 +14,15 @@ fonts_urls:
      -  "https://fonts.googleapis.com/css2?family=Anton"
      -  "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900"
      -  "https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+     -  "https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800"
 
 # Set custom fonts
 fonts:
   - name: "Anton"
     for: "heading"
-  - name: "Shadows Into Light"
+  - name: "Moderustic"
     for: "script"
-  - name: "Shadows Into Light"
+  - name: "Moderustic"
     for: "serif"
   - name: "Inter"
     for: "body"

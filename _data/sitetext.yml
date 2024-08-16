@@ -11,27 +11,20 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Hello, I'm
-    text: Kaytee
+    text: Goldrush
     button: sup
-    buttonlink: "#about"
-
-  header-last:
-    title: Hello, I'm
-    text: Klink
-#    button: sup
-#    buttonlink: "#about"
+    buttonlink: "#upcoming-gigs"
 
   about:
     title: "INTRODUCTION"
     text: "IYKNK"
-    body: "I’m a passionate Software Engineer who thrives on solving problems, turning ideas into reality, and continuous personal development. Early on, I learned the power of grit and perseverance. This mindset started when I applied myself towards earning a 4.0 in Computer Information Systems and Quantitative Statistics at TxState University, and even mastered billiards, eventually competing and winning at the collegiate level. These experiences taught me the power of dedication and the importance of setting intrinsic goals, which guided me toward pursuing my love for music. I taught myself guitar, started a band, and dove into songwriting, using creativity to practice authenticity while striving to impact others as music has impacted me. I'm passionate abouot music and moreso community. I’m someone who finds balance in life by embracing both the creative and strategic aspects of who I am. Software engineering is the yin to my musical yang. With a strong background in Native Android Development and Engineering Operations, I enjoy building innovative software solutions and automating the mundane. Recent projects include developing websites for local bands in Austin, TX as well as building an app in Flutter. I worked on the RetailMeNot Android App for 8 years as well. I’m particularly excited about streamlining processes and creating automated solutions, especially with the advancements in AI, which I leverage to craft efficient systems. I’m always eager to learn something new in this ever-evolving field, driven by a deep curiosity and a commitment to continuous improvement. I value being organized and thorough, striving to thoughtfully plan and execute each project. Whether working solo or as part of a team, I’m dedicated to making a real impact, and I believe that much of my success comes from the power of collaboration."
+    body: "Comprising of singer/lead guitarist Greg Warns, drummer Kevin Parmley, rhythm guitarist Logan Dubek and bassist Adam Hayman, Goldrush formed at the end of 2023 in Austin, TX. The band has a sound that finds its essence in the likes of Nirvana as much as it does Oasis…The Strokes as much as The Black Keys. Greg, who writes the majority of the lyrics and melodies, has been described as “Tom Petty, but if he went harder”..a comparison initially shaken off but later adopted as it seemed to uniquely describe the hard hitting riffs and catchy melodies that are enigmatic of the songs. Longtime friends Greg Warns and Kevin Parmley had played in nearly a dozen bands together before forming what is the final product of more than a decade of varying musical influences. Kevin was the first to make the move to Austin in 2021, where he met Logan on his first night in town at a rehearsal for another band. Logan and Kevin went on to play in multiple groups together and developed a close friendship and musical chemistry. After some (not so difficult) convincing, including a few visits to the thriving music city, Greg was next to make the move. Shortly after, the three started playing shows under Greg’s name, performing his deep catalog of originals and the occasional Gary Clark Jr. cover. The trio played with a number of bassists until happening upon Adam, relocated to Austin via Los Angeles, who quickly meshed with the three and began writing and recording at their home studio in San Marcos, TX. From the four, came Goldrush, quickly earning a name for themselves within the Austin Rock Scene, performing their first live show at Mohawk Indoor in Austin to celebrate the release of their debut single “Only Expectations” in January 2024. Since they have released 3 more singles: “Count the Letters,” “Let You Down” and “Coming Clean” with an EP and debut album in the works. Goldrush currently plays monthly residencies at Idle Hands on Rainey Street and Rustic Tap on West 6th, both on weekends, and both a very, very good time."
     section: about
 
-  links:
-    title: "Links"
+  upcoming-gigs:
+    title: "upcoming gigs"
     text: "hmu"
-    section: links
+    section: upcoming-gigs
     list:
       - title: "Code"
         desc: "Software Engineering"
@@ -48,9 +41,6 @@ en: &DEFAULT_EN
           icon: fab fa-instagram
         - url: https://www.linkedin.com/in/kayteeklinkenberg
           icon: fab fa-linkedin-in
-#      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-#        desc: "Your description here, full **Markdown** support"
-#        icon: fab fa-markdown
 
   portfolio:
     title: "<h2 class=\"section-heading text-uppercase\">Portfolio</h2>"
@@ -58,95 +48,10 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close Project"
 
-#  timeline:
-#    title: "Timeline"
-#    text: "Lorem ipsum timeline"
-#    section: timeline
-#    # left is the default
-#    #start_align: "left"
-#    events:
-#      - title: "Our Humble Beginnings"
-#        year: "2009-2011"
-#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-#        image: assets/img/timeline/1.jpg
-#        alt:
-#      - title: "An Agency is Born"
-#        year: "March 2011"
-#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-#        image: assets/img/timeline/2.jpg
-#        alt:
-#      - title: "Jekyll Theme is created"
-#        year: "2019"
-#        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-#        image: assets/img/timeline/3.jpg
-#        alt: image alt text
-#      - title: "Title"
-#        year: "2009-2011"
-#        desc: "Your description here, **Markdown** is fully supported."
-#        image: assets/img/timeline/4.jpg
-#        alt:
-#        # you can enforce the alignment
-#        align: right
-#    end: "Be Part <br> of Our <br> Story!"
-
-  # clients:
-  #   section: clients
-  #   max-height: 100px
-  #   horizontal-scrolling: "" #"yes/no"
-  #   list:
-  #     - title: "envato"
-  #       url: https://github.com/raviriley/agency-jekyll-theme
-  #       logo: assets/img/clients/envato.jpg
-  #     - title: "designmodo"
-  #       url: https://github.com/raviriley/agency-jekyll-theme
-  #       logo: assets/img/clients/designmodo.jpg
-  #     - title: "themeforest"
-  #       url: https://github.com/raviriley/agency-jekyll-theme
-  #       logo: assets/img/clients/themeforest.jpg
-  #     - title: "Creative Market"
-  #       url: https://github.com/raviriley/agency-jekyll-theme
-  #       logo: assets/img/clients/creative-market.jpg
-
-  # team:
-  #   title: "OUR AMAZING TEAM"
-  #   text: "Lorem ipsum dolor sit amet consectetur."
-  #   subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-  #   section: team
-  #   people:
-  #     - name: "Kay Garland"
-  #       role: "Lead Designer"
-  #       image: assets/img/team/500x500.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
-  #     - name: "Larry Parker"
-  #       role: "Lead Marketer"
-  #       image: assets/img/team/2.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
-  #     - name: "Diana Perterson"
-  #       role: "Lead Developer"
-  #       image: assets/img/team/500x500.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Me"
-    text: "For music, software engineering or other-"
+    title: "Contact Us"
+    text: "For booking, events, or other-"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -186,7 +91,7 @@ es: &DEFAULT_ES
     button: Ver más
     buttonlink: "#servicios"
 
-  links:
+  upcoming-gigs:
     title: "Servicios"
     text: "Lorem ipsum"
     section: servicios
@@ -341,7 +246,7 @@ de: &DEFAULT_DE
     button: Mehr erfahren
     buttonlink: "#Angebote"
 
-  links:
+  upcoming-gigs:
     title: "Leistungen"
     text: "Was wir anbieten."
     section: Leistungen

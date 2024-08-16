@@ -3,28 +3,33 @@ header.masthead {
   display: flex; // Use flexbox to arrange text and image side by side
   align-items: center; // Center align items vertically
   justify-content: space-between; // Ensure space between text and image
-  text-align: left; // Align text to the left
-  padding: 0 20px; // Add padding for some space on the sides
+  padding-bottom: 20px;
   background-color: black;
-  background-image: url('../img/MeWebsitePhoto.jpg');
-  background-size: contain; // Ensure the image is contained within the section
+  background-image: url('../img/GoldrushMohawk.jpeg');
+  background-size: cover; 
   background-repeat: no-repeat;
-  background-position: right; // Position the image on the right
+  background-position: center; 
+  overflow: hidden;
 
   @media (max-width: 768px) {
     background-size: 100vh;
     display: block; 
-    background-position: center;
+    background-position: top;
+    background-size: contain;
+    
     .intro-text {
       max-width: 100% !important;
       padding: 20px 0; // Simplified padding
       align-content: center;
-    }
-
-    .intro-lead-in {
-      font-size: 50px !important;
-      margin-bottom: 100px !important;
-      margin-left: 40px !important;
+      position: absolute;
+      bottom: 10%; /* Adjust this value to move the text up or down */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%; /* Ensure full width */
+      text-align: center; /* Center the text */
+      padding: 20px 0;
+      max-width: 100% !important;
+      color: white; /* Ensure text color is visible on black */
     }
   }
 
@@ -32,28 +37,15 @@ header.masthead {
     flex: 1; // Allow the text to take up available space on the left
     color: $off-white;
     max-width: 50%; // Limit the width of the text section
-
-    .intro-lead-in {
-      color: $bright-red;
-      transform: rotate(-10deg);
-      transform-origin: top left; /* Rotates around the top left corner */
-      font-size: 94px;
-      font-style: italic;
-      line-height: 22px; // Adjust this if needed
-      position: relative; // Set the position to relative
-      z-index: 1; // Ensure this element is on top if overlapping
-      margin-bottom: 0px;
-      top: 165px;
-      left: -70px;
-      @include serif-font;
-    }
+    align-content: center;
+    position: absolute;
 
     .intro-heading-first {
       font-size: 200px;
       font-weight: 700;
+      color: $bright-red !important;
       letter-spacing: 10px;
       line-height: 0.0 !important; // Reduce the line-height further
-      margin-bottom: -150px !important; // ****LINE SPACING WORKAROUND**** Use a negative margin to pull the words closer
       padding-bottom: 0;
       padding-top: 0;
       position: relative; // Set the position to relative
@@ -61,44 +53,9 @@ header.masthead {
       @include heading-font;
 
       @media (max-width: 768px) {
-        font-size: 80px; // Adjust this value as needed
+        font-size: 70px; 
         letter-spacing: 5px; // Reduce letter spacing for mobile
-        margin-bottom: -50px !important; // Remove negative margin on mobile
       }
     }
-
-    .intro-heading-last {
-          font-size: 200px;
-          font-weight: 700;
-          letter-spacing: 10px;
-          // line-height: 0.0 !important; // Reduce the line-height further
-          margin-bottom: 0px !important; // Use a negative margin to pull the words closer
-          padding-bottom: 0;
-          padding-top: 0;
-          @include heading-font;
-
-          @media (max-width: 768px) {
-            font-size: 80px; // Smaller font size for mobile
-            letter-spacing: 5px;
-            // line-height: 0.0 !important; // Increase line height for better readability
-            margin-bottom: 10px !important; // Add some space between lines
-          }
-        }
   }
-
-    // // Modify the existing media query
-    // @media (max-width: 768px) {
-    //   // ... existing code ...
-  
-    //   .intro-text {
-    //     max-width: 100%;
-    //     padding: 20px 0; // Simplified padding
-    //   }
-  
-    //   .intro-lead-in {
-    //     font-size: 60px !important; // Adjust the size for mobile
-    //     top: 50px; // Adjust positioning for mobile
-    //     left: 70px;
-    //   }
-    // }
 }

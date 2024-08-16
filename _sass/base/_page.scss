@@ -1,6 +1,18 @@
 // Global styling for this template
+@font-face {
+  font-family: 'KaapeliW01Bold'; /* This is the name you will use to reference the font */
+  src: url('/assets/fonts/Kaapeli W01 Bold.ttf') format('truetype'); /* Path to your .ttf file */
+  font-weight: bold; /* Assuming the font is bold */
+  font-style: normal; /* Assuming normal style */
+}
+
+/* Apply the font to your elements */
+body, h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'KaapeliW01Bold', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
+}
+
 body {
-  background-color: $off-white;
+  background-color: $black;
   overflow-x: hidden; /* Ensure no horizontal overflow */
   @include body-font;
 }
@@ -13,7 +25,6 @@ body {
   padding: 0;
   width: 100%;
   height: auto;
-  // min-height: 100vh;
   align-items: flex-start;
 }
 
@@ -30,10 +41,10 @@ body {
 
 .image-container {
   flex: 1;
-  background-image: url('../img/BW_kt.png');
-  background-size:contain;
+  background-image: url('../img/GoldrushKevOnLadder.jpeg');
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   opacity: 0.8;
   height: auto;
   min-height: 50vh; /* Ensure it takes up at least half of the viewport height */
@@ -44,8 +55,8 @@ body {
 .read-more-btn {
   display: block;
   margin-top: 10px;
-  background-color: #ff3d00;
-  color: white;
+  background-color: $bright-red;
+  color: $off-white;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -53,7 +64,7 @@ body {
 }
 
 .read-more-btn:hover {
-  background-color: #cc3100;
+  background-color: $light-gold;
 }
 
 .section-subheading-rotated {
@@ -66,7 +77,7 @@ body {
 }
 
 .square-box {
-  font-size: 12px;
+  font-size: 20px;
   box-sizing: border-box;
   margin: 0; /* Removes any extra margin */
   text-align: left; /* Aligns text to the left */
@@ -74,7 +85,10 @@ body {
   overflow: hidden; /* Hide overflow text */
   height: auto; /* Let the height adjust automatically based on content */
   transition: max-height 0.3s ease, height 0.3s ease; /* Smooth transition for expanding/collapsing */
-
+  p {
+    color: $off-white;
+    font-family: "Moderustic", sans-serif;
+  }
 }
 
 .square-box.expanded {
@@ -96,11 +110,6 @@ a {
   color: $primary !important;
 }
 
-h1, h2 {
-  font-size: 90px;
-  @include heading-font;
-}
-
 h3 {
   font-size: 44px;
   color: $primary;
@@ -117,12 +126,13 @@ h4, h5, h6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: $off-white;
+  background-color: $black;
   width: 100%; /* Ensure it doesn't overflow */
   overflow-x: hidden; /* Prevent horizontal overflow */
   h2.section-heading {
     color: $primary;
-    font-size: 200px;
+    text-align: center;
+    font-size: 150px;
     margin-top: 0;
     margin-bottom: 5px;
   }
