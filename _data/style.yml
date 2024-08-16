@@ -6,8 +6,8 @@
 #Image Customization
 header-image: "../img/header.png"
 contact-image: "../img/GoldrushFaceDown.jpeg"
-#Font Awesome icon for portfolio grid when an item is hovered over
-#portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
+#Font Awesome icon for listen grid when an item is hovered over
+#listen-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
 
 # Add custom fonts
 fonts_urls:

@@ -1,13 +1,13 @@
 ---
-caption: #what displays in the portfolio grid:
+caption: #what displays in the listen grid:
   title: Products & Apps 
   subtitle: Mobile App Development
-  thumbnail: ../assets/img/portfolio/blackabstract1.jpg
+  thumbnail: ../assets/img/listen/blackabstract1.jpg
   
 #what displays when the item is clicked:
 title: Products & Apps
 subtitle: Mobile App Development
-image: ../assets/img/portfolio/cute_divider.png #main image, can be a link or a file in assets/img/portfolio
+image: ../assets/img/listen/cute_divider.png #main image, can be a link or a file in assets/img/listen
 alt: image alt text
 
 ---

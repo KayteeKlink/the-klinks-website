@@ -1,13 +1,13 @@
 ---
-caption: #what displays in the portfolio grid:
+caption: #what displays in the listen grid:
   title: Test Solutions
   subtitle: Damn I Just Love Test
-  thumbnail: ../assets/img/portfolio/blackabstract.jpg
+  thumbnail: ../assets/img/listen/blackabstract.jpg
   
 #what displays when the item is clicked:
 title: Test Solutions
 subtitle: Damn I Just Love Test
-image: ../assets/img/portfolio/cute_divider.png #main image, can be a link or a file in assets/img/portfolio
+image: ../assets/img/listen/cute_divider.png #main image, can be a link or a file in assets/img/listen
 alt: image alt text
 
 ---

@@ -13,10 +13,10 @@ en: &DEFAULT_EN
   header:
     text: Goldrush
     button: sup
-    buttonlink: "#upcoming-gigs"
+    buttonlink: "#listen"
 
   about:
-    title: "INTRODUCTION"
+    title: "MEET THE BAND"
     text: "IYKNK"
     body: "Comprising of singer/lead guitarist Greg Warns, drummer Kevin Parmley, rhythm guitarist Logan Dubek and bassist Adam Hayman, Goldrush formed at the end of 2023 in Austin, TX. The band has a sound that finds its essence in the likes of Nirvana as much as it does Oasis…The Strokes as much as The Black Keys. Greg, who writes the majority of the lyrics and melodies, has been described as “Tom Petty, but if he went harder”..a comparison initially shaken off but later adopted as it seemed to uniquely describe the hard hitting riffs and catchy melodies that are enigmatic of the songs. Longtime friends Greg Warns and Kevin Parmley had played in nearly a dozen bands together before forming what is the final product of more than a decade of varying musical influences. Kevin was the first to make the move to Austin in 2021, where he met Logan on his first night in town at a rehearsal for another band. Logan and Kevin went on to play in multiple groups together and developed a close friendship and musical chemistry. After some (not so difficult) convincing, including a few visits to the thriving music city, Greg was next to make the move. Shortly after, the three started playing shows under Greg’s name, performing his deep catalog of originals and the occasional Gary Clark Jr. cover. The trio played with a number of bassists until happening upon Adam, relocated to Austin via Los Angeles, who quickly meshed with the three and began writing and recording at their home studio in San Marcos, TX. From the four, came Goldrush, quickly earning a name for themselves within the Austin Rock Scene, performing their first live show at Mohawk Indoor in Austin to celebrate the release of their debut single “Only Expectations” in January 2024. Since they have released 3 more singles: “Count the Letters,” “Let You Down” and “Coming Clean” with an EP and debut album in the works. Goldrush currently plays monthly residencies at Idle Hands on Rainey Street and Rustic Tap on West 6th, both on weekends, and both a very, very good time."
     section: about
@@ -35,17 +35,10 @@ en: &DEFAULT_EN
         icon: fas fa-music
         url: https://theklinksmusic.com
 
-    sociallinks:
-      social:
-        - url: https://www.instagram.com/klinkstink
-          icon: fab fa-instagram
-        - url: https://www.linkedin.com/in/kayteeklinkenberg
-          icon: fab fa-linkedin-in
-
-  portfolio:
-    title: "<h2 class=\"section-heading text-uppercase\">Portfolio</h2>"
+  listen:
+    title: "<h2 class=\"section-heading text-uppercase\">listen</h2>"
     text: "Recent Engineering Projects"
-    section: portfolio
+    section: listen
     closebutton: "Close Project"
 
 
@@ -67,11 +60,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://linkedin.com/in/kaytee-klinkenberg
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/KayteeKlink
-        icon: "fab fa-github"
-      - url: https://instagram.com/klinkstink
+      - url: https://open.spotify.com/artist/0WOVQo1qEeG9xD7GPAMwzA?si=1_1q-YG2QCKG3nuy2zU2Ag
+        icon: "fab fa-spotify"
+      - url: https://www.facebook.com/goldrushatx
+        icon: "fab fa-facebook"
+      - url: https://www.instagram.com/goldrushatx
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
@@ -106,7 +99,7 @@ es: &DEFAULT_ES
         desc: "Su descripción aquí, soporte completo de **Markdown**"
         icon: fab fa-markdown
 
-  portfolio:
+  listen:
     title: "Portafolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portafolio
@@ -261,10 +254,10 @@ de: &DEFAULT_DE
         desc: "Hier können Sie etwas mit **Markdown** einfügen."
         icon: fab fa-markdown
 
-  portfolio:
-    title: "Portfolio"
+  listen:
+    title: "listen"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: Portfolio
+    section: listen
     closebutton: "Schließen"
 
   timeline:
