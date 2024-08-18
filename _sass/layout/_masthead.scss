@@ -5,7 +5,7 @@ header.masthead {
   justify-content: space-between; // Ensure space between text and image
   padding-bottom: 20px;
   background-color: black;
-  background-image: url('../img/GoldrushMohawk.jpeg');
+  background-image: url('../img/KlinksDump.png');
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center; 
@@ -36,7 +36,7 @@ header.masthead {
   .intro-text {
     flex: 1; // Allow the text to take up available space on the left
     color: $off-white;
-    max-width: 50%; // Limit the width of the text section
+    max-width: 100%; // Limit the width of the text section
     align-content: center;
     position: absolute;
 

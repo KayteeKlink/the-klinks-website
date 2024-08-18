@@ -1,14 +1,14 @@
 // Global styling for this template
 @font-face {
-  font-family: 'KaapeliW01Bold'; /* This is the name you will use to reference the font */
-  src: url('/assets/fonts/Kaapeli W01 Bold.ttf') format('truetype'); /* Path to your .ttf file */
+  font-family: 'Mathison-Regular'; /* This is the name you will use to reference the font */
+  src: url('/assets/fonts/Mathison-Regular.otf') format('truetype'); /* Path to your .ttf file */
   font-weight: bold; /* Assuming the font is bold */
   font-style: normal; /* Assuming normal style */
 }
 
 /* Apply the font to your elements */
 body, h1, h2, h3, h4, h5, h6, p, a {
-  font-family: 'KaapeliW01Bold', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
+  font-family: 'Mathison-Regular', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
 }
 
 body {

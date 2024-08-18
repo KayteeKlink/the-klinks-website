@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    text: Goldrush
+    text: The Klinks
     button: sup
     buttonlink: "#listen"
 
@@ -25,15 +25,15 @@ en: &DEFAULT_EN
     title: "upcoming gigs"
     text: "hmu"
     section: upcoming-gigs
-    list:
-      - title: "Code"
-        desc: "Software Engineering"
-        icon: fab fa-github #find more at https://fontawesome.com/icons
-        url: https://github.com/kayteeklink
-      - title: "Music"
-        desc: "The Klinks"
-        icon: fas fa-music
-        url: https://theklinksmusic.com
+    # list:
+    #   - title: "Code"
+    #     desc: "Software Engineering"
+    #     icon: fab fa-github #find more at https://fontawesome.com/icons
+    #     url: https://github.com/kayteeklink
+    #   - title: "Music"
+    #     desc: "The Klinks"
+    #     icon: fas fa-music
+    #     url: https://theklinksmusic.com
 
   listen:
     title: "<h2 class=\"section-heading text-uppercase\">listen</h2>"
