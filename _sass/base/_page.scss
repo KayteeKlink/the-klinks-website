@@ -111,13 +111,17 @@ a {
   }
 }
 
+.text-muted {
+  color: $light-gold !important;
+}
+
 .text-primary {
   color: $primary !important;
 }
 
 h3 {
   font-size: 44px;
-  color: $primary;
+  color: $light-gold;
   @include script-font;
 }
 
@@ -131,7 +135,7 @@ h4, h5, h6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: $black;
+  background-color: $black; // BACKGROUND FOR PAGE SECTIONS!
   width: 100%; /* Ensure it doesn't overflow */
   overflow-x: hidden; /* Prevent horizontal overflow */
   h2.section-heading {
@@ -143,8 +147,7 @@ h4, h5, h6 {
   }
   h3.section-subheading {
     font-size: 44px;
-    font-weight: 400;
-    color: $off-white !important;
+    font-weight: 400;;
     margin-bottom: 20px;
     text-transform: none;
     @include serif-font;

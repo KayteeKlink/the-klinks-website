@@ -1,62 +1,59 @@
 header.masthead {
-  height: 100vh; // Ensure it covers the full height of the viewport
-  display: flex; // Use flexbox to arrange text and image side by side
-  align-items: center; // Center align items vertically
-  justify-content: space-between; // Ensure space between text and image
+  height: 100vh; /* Ensure it covers the full height of the viewport */
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
   padding-bottom: 20px;
   background-color: black;
-  background-image: url('../img/Klinks_hugs_crop_BW.jpg');
-  background-size: cover; 
+  background-image: url('../img/klinks_hugs_purp.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   overflow: hidden;
+}
 
-  @media (max-width: 768px) {
-    background-size: 100vh;
-    display: block; 
+.intro-text {
+  color: $off-white;
+  text-align: center; /* Ensure the text is centered */
+  position: relative;
+  top: 130px; /* Move the text and button down */
+}
+
+.intro-heading-first {
+  font-size: 200px;
+  font-weight: 700;
+  color: $bright-red !important;
+  letter-spacing: 10px;
+  line-height: 0.9; /* Adjust the line-height */
+  padding-bottom: 0;
+  padding-top: 0;
+  position: relative;
+  z-index: 1;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 1); /* Shadow around the text */
+  // text-shadow: 4px 4px 10px rgba(218, 218, 207, 1); /* Shadow around the text */
+
+  @include heading-font;
+}
+
+@media (max-width: 768px) {
+  header.masthead {
+    display: block; /* Stack elements vertically */
     background-position: top;
-    background-size: cover;
-    
-    .intro-text {
-      max-width: 100% !important;
-      padding: 20px 0; // Simplified padding
-      align-content: center;
-      position: absolute;
-      bottom: 10%; /* Adjust this value to move the text up or down */
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%; /* Ensure full width */
-      text-align: center; /* Center the text */
-      padding: 20px 0;
-      max-width: 100% !important;
-      color: white; /* Ensure text color is visible on black */
-    }
   }
 
   .intro-text {
-    flex: 1; // Allow the text to take up available space on the left
-    color: $off-white;
-    max-width: 100%; // Limit the width of the text section
-    align-content: center;
+    max-width: 100% !important;
+    padding: 20px 0; /* Simplified padding */
     position: absolute;
+    bottom: 10%; /* Adjust this value to move the text up or down */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center; /* Center the text */
+    top: 280px; /* Move the text and button down */
+  }
 
-    .intro-heading-first {
-      font-size: 200px;
-      font-weight: 700;
-      color: $bright-red !important;
-      letter-spacing: 10px;
-      line-height: 0.0 !important; // Reduce the line-height further
-      padding-bottom: 0;
-      padding-top: 0;
-      position: relative; // Set the position to relative
-      z-index: 0; // Set the stacking order (if needed)
-      text-shadow: 4px 4px 10px rgba(0, 0, 0, 1); // Shadow around the text
-      @include heading-font;
-
-      @media (max-width: 768px) {
-        font-size: 70px; 
-        letter-spacing: 5px; // Reduce letter spacing for mobile
-      }
-    }
+  .intro-heading-first {
+    font-size: 70px;
+    letter-spacing: 5px; /* Reduce letter spacing for mobile */
   }
 }
