@@ -62,11 +62,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://open.spotify.com/artist/0WOVQo1qEeG9xD7GPAMwzA?si=1_1q-YG2QCKG3nuy2zU2Ag
-        icon: "fab fa-spotify"
-      - url: https://www.facebook.com/goldrushatx
+      # - url: https://open.spotify.com/artist/0WOVQo1qEeG9xD7GPAMwzA?si=1_1q-YG2QCKG3nuy2zU2Ag
+      #   icon: "fab fa-spotify"
+      - url: https://www.facebook.com/people/The-Klinks/100085460100877/
         icon: "fab fa-facebook"
-      - url: https://www.instagram.com/goldrushatx
+      - url: https://www.instagram.com/theklinks
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
