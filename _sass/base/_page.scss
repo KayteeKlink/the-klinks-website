@@ -1,24 +1,23 @@
 // Global styling for this template
 @font-face {
-  font-family: 'ROMANTICE'; /* This is the name you will use to reference the font */ 
-  src: url('/assets/fonts/ROMANTICE.otf') format('truetype'); /* Path to your .ttf file */
-  // font-family: 'Mathison-Regular'; /* This is the name you will use to reference the font */ 
-  // src: url('/assets/fonts/Mathison-Regular.otf') format('truetype'); /* Path to your .ttf file */
+  // font-family: 'ROMANTICE'; /* This is the name you will use to reference the font */ 
+  // src: url('/assets/fonts/ROMANTICE.otf') format('truetype'); /* Path to your .ttf file */
+  font-family: 'Mathison-Regular'; /* This is the name you will use to reference the font */ 
+  src: url('/assets/fonts/Mathison-Regular.otf') format('truetype'); /* Path to your .ttf file */
   font-weight: bold; /* Assuming the font is bold */
   font-style: normal; /* Assuming normal style */
 }
 
 /* Apply the font to your elements */
-body, h1, h2, h3, h4, h5, h6, p, a {
-  font-family: 'ROMANTICE', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
-}
-/* Apply the font to your elements */
 // body, h1, h2, h3, h4, h5, h6, p, a {
-//   font-family: 'Mathison-Regular', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
+//   font-family: 'ROMANTICE', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
 // }
+/* Apply the font to your elements */
+body, h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Mathison-Regular', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
+}
 
 body {
-  background-color: $black;
   overflow-x: hidden; /* Ensure no horizontal overflow */
   @include body-font;
 }
@@ -136,7 +135,7 @@ h4, h5, h6 {
   width: 100%; /* Ensure it doesn't overflow */
   overflow-x: hidden; /* Prevent horizontal overflow */
   h2.section-heading {
-    color: $primary;
+    color: $bright-red;
     text-align: center;
     font-size: 150px;
     margin-top: 0;
