@@ -5,11 +5,9 @@ section#contact {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  .section-heading {
-    color: $bright-red;
-  }
-  h3 {
-    color: $bright-red !important;
+  .section-heading, h3 {
+    color: $light-gold;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 1); // Shadow around the text
   }
   .form-group {
     margin-bottom: 25px;

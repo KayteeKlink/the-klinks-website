@@ -18,12 +18,14 @@
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
   li {
+    display: inline-block;
     a {
       font-size: 20px;
-      line-height: 50px;
-      display: block;
+      line-height: 50px; // Ensure line-height is equal to the height for vertical centering
+      display: flex; // Use flexbox for better centering control
+      justify-content: center; // Center horizontally
+      align-items: center; // Center vertically
       width: 50px;
       height: 50px;
       -webkit-transition: all 0.3s;
@@ -33,6 +35,7 @@ ul.social-buttons {
       border-radius: 100%;
       outline: none;
       background-color: $gray-900;
+      text-align: center; // Center the text/icon horizontally
       &:active,
       &:focus,
       &:hover {
@@ -41,3 +44,4 @@ ul.social-buttons {
     }
   }
 }
+

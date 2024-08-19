@@ -1,31 +1,38 @@
-// Styling for the upcoming-gigs section
-.upcoming-gig-heading {
-  text-transform: none;
-  color: $bright-red !important;
-}
-#upcoming-gigs {
-  background-color: black;
-}
-#social-upcoming-gigs {
-  margin-bottom: 50px;
+.gig-row {
+  display: flex;
+  align-items: center; /* Vertically centers the icon with the text */
+  margin-bottom: 15px; /* Adds space between each gig entry */
 }
 
-#upcoming-gigs div {
-  margin-bottom: 20px;
+.gig-link {
+  display: flex;
+  align-items: center; /* Ensures the icon is centered vertically */
+  margin-right: 20px; /* Adds space between the icon and the text */
+}
+
+.gig-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gig-title h3,
+.gig-title p {
+  margin: 0; /* Removes default margins that might cause misalignment */
+  padding: 0;
 }
 
 #upcoming-gigs h3 {
-  font-size: 1.2em;
   margin-bottom: 5px;
 }
 
 #upcoming-gigs p {
-  font-size: 1em;
-  color: #666;
+  color: white;
+  margin: 0;
 }
 
 #upcoming-gigs a {
-  color: #ff0000;
+  color: white;
   text-decoration: none;
 }
 

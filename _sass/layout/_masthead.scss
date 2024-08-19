@@ -5,7 +5,7 @@ header.masthead {
   justify-content: space-between; // Ensure space between text and image
   padding-bottom: 20px;
   background-color: black;
-  background-image: url('../img/KlinksDump.png');
+  background-image: url('../img/Klinks_hugs_crop_BW.jpg');
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center; 
@@ -15,7 +15,7 @@ header.masthead {
     background-size: 100vh;
     display: block; 
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     
     .intro-text {
       max-width: 100% !important;
@@ -50,6 +50,7 @@ header.masthead {
       padding-top: 0;
       position: relative; // Set the position to relative
       z-index: 0; // Set the stacking order (if needed)
+      text-shadow: 4px 4px 10px rgba(0, 0, 0, 1); // Shadow around the text
       @include heading-font;
 
       @media (max-width: 768px) {

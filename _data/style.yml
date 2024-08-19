@@ -1,11 +1,11 @@
-#Color Customization
-#highlight: "#54bfff"
+#Color Customization - $primary !
+highlight: "#dab9c1"
 #white: "#FF0000"
-#black: "#000"
+# black: "#000"
 
 #Image Customization
 header-image: "../img/header.png"
-contact-image: "../img/GoldrushFaceDown.jpeg"
+contact-image: "../img/kt_contact.jpg"
 #Font Awesome icon for listen grid when an item is hovered over
 #listen-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
 

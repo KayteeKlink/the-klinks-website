@@ -1,15 +1,21 @@
 // Global styling for this template
 @font-face {
-  font-family: 'Mathison-Regular'; /* This is the name you will use to reference the font */
-  src: url('/assets/fonts/Mathison-Regular.otf') format('truetype'); /* Path to your .ttf file */
+  font-family: 'ROMANTICE'; /* This is the name you will use to reference the font */ 
+  src: url('/assets/fonts/ROMANTICE.otf') format('truetype'); /* Path to your .ttf file */
+  // font-family: 'Mathison-Regular'; /* This is the name you will use to reference the font */ 
+  // src: url('/assets/fonts/Mathison-Regular.otf') format('truetype'); /* Path to your .ttf file */
   font-weight: bold; /* Assuming the font is bold */
   font-style: normal; /* Assuming normal style */
 }
 
 /* Apply the font to your elements */
 body, h1, h2, h3, h4, h5, h6, p, a {
-  font-family: 'Mathison-Regular', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
+  font-family: 'ROMANTICE', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
 }
+/* Apply the font to your elements */
+// body, h1, h2, h3, h4, h5, h6, p, a {
+//   font-family: 'Mathison-Regular', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
+// }
 
 body {
   background-color: $black;
@@ -41,7 +47,7 @@ body {
 
 .image-container {
   flex: 1;
-  background-image: url('../img/GoldrushKevOnLadder.jpeg');
+  background-image: url('../img/KlinksDump.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -139,7 +145,7 @@ h4, h5, h6 {
   h3.section-subheading {
     font-size: 44px;
     font-weight: 400;
-    color: black !important;
+    color: $off-white !important;
     margin-bottom: 20px;
     text-transform: none;
     @include serif-font;

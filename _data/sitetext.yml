@@ -18,26 +18,28 @@ en: &DEFAULT_EN
   about:
     title: "MEET THE BAND"
     text: "IYKNK"
-    body: "Comprising of singer/lead guitarist Greg Warns, drummer Kevin Parmley, rhythm guitarist Logan Dubek and bassist Adam Hayman, Goldrush formed at the end of 2023 in Austin, TX. The band has a sound that finds its essence in the likes of Nirvana as much as it does Oasis…The Strokes as much as The Black Keys. Greg, who writes the majority of the lyrics and melodies, has been described as “Tom Petty, but if he went harder”..a comparison initially shaken off but later adopted as it seemed to uniquely describe the hard hitting riffs and catchy melodies that are enigmatic of the songs. Longtime friends Greg Warns and Kevin Parmley had played in nearly a dozen bands together before forming what is the final product of more than a decade of varying musical influences. Kevin was the first to make the move to Austin in 2021, where he met Logan on his first night in town at a rehearsal for another band. Logan and Kevin went on to play in multiple groups together and developed a close friendship and musical chemistry. After some (not so difficult) convincing, including a few visits to the thriving music city, Greg was next to make the move. Shortly after, the three started playing shows under Greg’s name, performing his deep catalog of originals and the occasional Gary Clark Jr. cover. The trio played with a number of bassists until happening upon Adam, relocated to Austin via Los Angeles, who quickly meshed with the three and began writing and recording at their home studio in San Marcos, TX. From the four, came Goldrush, quickly earning a name for themselves within the Austin Rock Scene, performing their first live show at Mohawk Indoor in Austin to celebrate the release of their debut single “Only Expectations” in January 2024. Since they have released 3 more singles: “Count the Letters,” “Let You Down” and “Coming Clean” with an EP and debut album in the works. Goldrush currently plays monthly residencies at Idle Hands on Rainey Street and Rustic Tap on West 6th, both on weekends, and both a very, very good time."
+    body: "The Klinks are a 5-piece alt-rock band from Austin, TX. They are known for their lively performances and emotional rides of original song set lists. Composed of vocalist and songwriter Kaytee Klinkenberg, guitarist Evan Autin, violinist and guitarist Riley Edwards, bassist Chuck Swartz and drummer Rhett Belcher, The Klinks are a band driven by passion and a collective fulfillment of musical expression. Having each had years of experience in different music scenes across the nation, the band together understands the magic of drawing in and holding an audiences’ attention. It's not uncommon to laugh, cry, dance, and mosh all while attending any one of The Klinks shows. “Electric” would only begin to describe the atmosphere that The Klinks bring. Their sound fluctuates between songs that are instrumentally forward to songs that are vocally forward, with hints of neo soul, blues rock and singer-songwriter aspects. Each member has a voice in the songwriting composition which can be felt in their sound and live performances. The Klinks value the audience and their experience in the show as much as their own."
     section: about
 
   upcoming-gigs:
     title: "upcoming gigs"
     text: "hmu"
     section: upcoming-gigs
-    # list:
-    #   - title: "Code"
-    #     desc: "Software Engineering"
-    #     icon: fab fa-github #find more at https://fontawesome.com/icons
-    #     url: https://github.com/kayteeklink
-    #   - title: "Music"
-    #     desc: "The Klinks"
-    #     icon: fas fa-music
-    #     url: https://theklinksmusic.com
+    gigs:
+      # - title: "Rock N Bowl"
+      #   date: "10.05.2024"
+      - title: "Gretna Fest"
+        date: "10.06.2024"
+        icon: fas fa-ticket fa-3x #find more at https://fontawesome.com/icons
+        url: https://gretnafest.com/tickets/
+      - title: "Canary Foundation"
+        date: "11.02.2024"
+        icon: fas fa-ticket fa-3x
+        url: 
 
   listen:
     title: "<h2 class=\"section-heading text-uppercase\">listen</h2>"
-    text: "Recent Engineering Projects"
+    text: "EP Release coming January 2025. <br /> Demos available upon request."
     section: listen
     closebutton: "Close Project"
 

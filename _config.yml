@@ -16,8 +16,8 @@ remote_theme: "raviriley/agency-jekyll-theme"
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Goldrush
-email      : goldrushatx@gmail.com #this is also the email contact forms will go to
+title      : The Klinks
+email      : theklinksmusic@gmail.com #this is also the email contact forms will go to
 description: "Site description"
 author     : Kaytee Klinkenberg
 # logo:     #optional, defaults to site title
