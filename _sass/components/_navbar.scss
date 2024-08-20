@@ -8,7 +8,7 @@
     text-transform: uppercase;
     color: $off-white;
     border: 0;
-    background-color: $bright-red;
+    background-color: lighten($color: $black, $amount: 5);
     @include heading-font;
   }
   .navbar-brand {

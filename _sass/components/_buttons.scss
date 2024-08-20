@@ -10,13 +10,15 @@
 }
 
 .btn-primary {
-  background-color: $bright-red;
-  border-color: $primary;
+  background-color: $off-white;
+  border-color: lighten($black, 0%);
+  border-radius: 50px;
+  color: $bright-red;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
+    background-color: $bright-red !important;
+    border-color: $bright-red;
     color: $off-white;
   }
   &:active,
