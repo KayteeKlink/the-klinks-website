@@ -1,4 +1,5 @@
 // Global styling for this template
+/* Change heading font!!! */
 @font-face {
   // font-family: 'ROMANTICE'; /* This is the name you will use to reference the font */ 
   // src: url('/assets/fonts/ROMANTICE.otf') format('truetype'); /* Path to your .ttf file */
@@ -8,11 +9,11 @@
   font-style: normal; /* Assuming normal style */
 }
 
-/* Apply the font to your elements */
+/* Change heading font!!! */
 // body, h1, h2, h3, h4, h5, h6, p, a {
 //   font-family: 'ROMANTICE', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
 // }
-/* Apply the font to your elements */
+//
 body, h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Mathison-Regular', sans-serif; /* Fallback to sans-serif in case the font doesn't load */
 }
@@ -38,6 +39,7 @@ body {
   padding: 20px;
   height: auto;
   align-self: flex-start; /* Align the image container to the bottom of its parent */
+  @include heading-font;
 }
 
 .text-container.expanded {
@@ -46,7 +48,7 @@ body {
 
 .image-container {
   flex: 1;
-  background-image: url('../img/KlinksDump.png');
+  background-image: url('../img/flip_off.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -60,16 +62,13 @@ body {
 .read-more-btn {
   display: block;
   margin-top: 10px;
-  background-color: $off-white;
-  color: $black;
-  border: none;
+  background-color: $black;
+  border-color: $off-white;
+  border: solid;
+  color: $off-white;
   padding: 10px 20px;
   cursor: pointer;
   font-family: "Anton", sans-serif;
-}
-
-.read-more-btn:hover {
-  // background-color: $light-gold; BUG!!
 }
 
 .section-subheading-rotated {
@@ -166,6 +165,7 @@ h4, h5, h6 {
   }
 
   .image-container {
+    background-image: url('../img/flip_off_bigger.png');
     margin-top: 0;
     width: 100%; /* Ensure the image container takes up the full width */
     height: 50vh; /* Make the image take up half the viewport height */

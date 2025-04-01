@@ -18,7 +18,14 @@ en: &DEFAULT_EN
   about:
     title: "MEET THE BAND"
     text: "IYKNK"
-    body: "The Klinks are a 5-piece alt-rock band from Austin, TX. They are known for their lively performances and emotional rides of original song set lists. Composed of vocalist and songwriter Kaytee Klinkenberg, guitarist Evan Autin, violinist and guitarist Riley Edwards, bassist Chuck Swartz and drummer Rhett Belcher, The Klinks are a band driven by passion and a collective fulfillment of musical expression. Having each had years of experience in different music scenes across the nation, the band together understands the magic of drawing in and holding an audiences’ attention. It's not uncommon to laugh, cry, dance, and mosh all while attending any one of The Klinks shows. “Electric” would only begin to describe the atmosphere that The Klinks bring. Their sound fluctuates between songs that are instrumentally forward to songs that are vocally forward, with hints of neo soul, blues rock and singer-songwriter aspects. Each member has a voice in the songwriting composition which can be felt in their sound and live performances. The Klinks value the audience and their experience in the show as much as their own."
+    body: >
+      <a href="https://www.instagram.com/theklinks/" target="_blank" rel="noopener noreferrer">@theklinks</a>
+      a 5-piece alt-rock band from Austin, TX. 
+      <br><br> Kaytee Klinkenberg <a href="https://www.instagram.com/klinkstink/" target="_blank" rel="noopener noreferrer">@klinkstink</a>
+      <br> Rhett Belcher <a href="https://www.instagram.com/100percent_brett/" target="_blank" rel="noopener noreferrer">@100percent_brett</a>
+      <br> Evan Autin <a href="https://www.instagram.com/evanautinmusic/" target="_blank" rel="noopener noreferrer">@evanautinmusic</a>
+      <br> Charles Swartz <a href="https://www.instagram.com/chalzswartz/" target="_blank" rel="noopener noreferrer">@chalzswartz</a>
+      <br> Riley Edwards <a href="https://www.instagram.com/rileyedwardsmusic/" target="_blank" rel="noopener noreferrer">@rileyedwardsmusic</a>
     section: about
 
   upcoming-gigs:
@@ -39,7 +46,7 @@ en: &DEFAULT_EN
 
   listen:
     title: "<h2 class=\"section-heading text-uppercase\">listen</h2>"
-    text: "EP Release coming January 2025. <br /> Demos available upon request."
+    text: "\"In the Name of Love\""
     section: listen
     closebutton: "Close Project"
 

@@ -26,3 +26,11 @@
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
   }
 }
+
+.mobile-only {
+  display: none; // Hide by default
+
+  @media (max-width: 768px) {
+    display: inline-block; // Show on mobile
+  }
+}
