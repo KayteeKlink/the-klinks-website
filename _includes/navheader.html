@@ -54,7 +54,8 @@
         <div class="intro-heading-first text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
       {%- endif -%}
       {%- if site.data.sitetext[site.locale].header.button -%}
-       <a class="btn btn-primary btn-xl js-scroll-trigger mobile-only" href="{{ site.data.sitetext[site.locale].header.buttonlink }}"><i class="fas fa-play"></i></a>
+       <!-- HIDE PLAY BUTTON IN HEADER--> 
+       <!-- <a class="btn btn-primary btn-xl js-scroll-trigger mobile-only" href="{{ site.data.sitetext[site.locale].header.buttonlink }}"><i class="fas fa-play"></i></a> -->
       {%- endif -%}
       </div>
     </div>
