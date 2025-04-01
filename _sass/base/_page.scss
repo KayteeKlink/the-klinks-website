@@ -85,7 +85,7 @@ body {
   box-sizing: border-box;
   margin: 0; /* Removes any extra margin */
   text-align: left; /* Aligns text to the left */
-  max-height: 30vh; /* Initially limited height */
+  // max-height: 30vh; /* Initially limited height */
   overflow: hidden; /* Hide overflow text */
   height: auto; /* Let the height adjust automatically based on content */
   transition: max-height 0.3s ease, height 0.3s ease; /* Smooth transition for expanding/collapsing */
