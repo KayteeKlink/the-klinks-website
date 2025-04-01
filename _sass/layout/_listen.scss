@@ -141,3 +141,17 @@
     }
   }
 }
+
+.spotify-embed {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
+
+@media (max-width: 480px) {
+  .spotify-embed iframe {
+    height: 152px; /* shorter player for smaller screens */
+  }
+}
